@@ -1,4 +1,4 @@
-body, ul, li, logo, h1, h2, h3, p, hr, img, input, section {
+body, ul, li, logo, h1, h2, h3, h4, a, p, hr, span, img, input, section {
      margin: 0;
      padding: 0;
  }
@@ -11,7 +11,7 @@ body, ul, li, logo, h1, h2, h3, p, hr, img, input, section {
   background: #fff;
  }
 
- h1, h2, h3 {
+ h1, h2, h3, h4, span {
    font-family: Poppins;
    font-style: normal;
  }
@@ -191,8 +191,6 @@ body, ul, li, logo, h1, h2, h3, p, hr, img, input, section {
    margin-right: 0;
  } 
 
-
-}
  
 
 

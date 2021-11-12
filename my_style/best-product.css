@@ -1,0 +1,155 @@
+.best-wrapper {
+  display: flex;
+  padding: 63px 45px 64px 45px;
+}
+
+.best-block {
+  width: 268px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.best-block__title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #151515;
+  margin-bottom: 16px;
+}
+
+.best-block__items {
+  display: flex;
+  flex-direction: column;
+}
+
+.best-block__item {
+  margin-bottom: 12px;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.best-block__more {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 169px;
+  height: 48px;
+  border: none;
+  border-radius: 12px;
+  padding: 16px 16px 16px 16px;
+  font-size: 15px;
+  line-height: 22px;
+  background: #F5F5F5;
+  outline: none;
+  margin-top: 36px;
+}
+
+.best-block__text {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  color: #151515;
+  margin-right: 10px;
+}
+
+.product__list {
+  display: flex;
+  list-style-type: none;
+}
+
+.product__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  border: 1px solid #D1D1D1;
+  border-radius: 12px;
+  margin-right: 32px;
+  max-width: 269px;
+}
+
+.product__wrapper:last-child {
+  margin: 0;
+}
+
+.product__item {
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+}
+
+.product__photo {
+  margin-bottom: 13px;
+}
+
+.product__photo--img {
+  width: 100%;
+  height: 100%;
+}
+
+.product__photo--discount {
+  position: absolute;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  top: 11px;
+  left: 20px;
+}
+
+.product__title {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #151515;
+  margin-bottom: 4px;
+}
+
+.product__description {
+  font-size: 12px;
+  line-height: 16px;
+  color: #575757;
+  margin-bottom: 15px;
+}
+
+.product__price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product__price--block {
+  display: flex;
+  flex-direction: column;
+}
+
+.product__price--cost {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #151515;
+}
+
+.product__price--discount {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  text-decoration-line: line-through;
+  color: #A9A9A9;
+}
+
+.product__price--btn {
+  cursor: pointer;
+  width: 90px;
+  background: #6A983C;
+  border: 2px solid #46760A;
+  border-radius: 12px;
+  color: #fff;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  padding: 6px 10px;
+}
