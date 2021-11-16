@@ -1,0 +1,30 @@
+.headline-wrapper {
+  padding: 64px 45px;
+}
+
+.headline__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.headline__header--title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #151515;
+}
+
+.headline__header--button {
+  display: flex;
+  align-items: baseline;
+}
+
+.headline__header--button-text {
+  margin-right: 12px;
+}
+
+.headline__header--button-icon {
+  width: 16px;
+  height: 16px;
+}
